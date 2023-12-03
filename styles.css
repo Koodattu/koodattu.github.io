@@ -132,7 +132,7 @@ h1 {
 
 .box-link:hover,
 .github-icon:hover {
-  background-color: #444459;
+  background-color: #343445;
 }
 
 .github-icon {
@@ -141,4 +141,12 @@ h1 {
   justify-content: center;
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 768px) {
+  .center-container {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
 }
