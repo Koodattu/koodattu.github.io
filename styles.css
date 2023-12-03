@@ -70,14 +70,14 @@ h1 {
   justify-content: space-between;
   padding: 10px;
   box-sizing: border-box;
-  margin-left: 40px; /* Left margin */
-  margin-right: 40px; /* Right margin */
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .divider {
   height: 2px;
-  background-color: #1a1a21; /* Color of the divider */
-  width: 100%; /* Divider spans the full width of the container */
+  background-color: #1a1a21;
+  width: 100%;
 }
 
 .box-header {
@@ -101,4 +101,44 @@ h1 {
 .box-description {
   color: whitesmoke;
   max-width: 50%;
+}
+
+.github-icon {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer-container {
+  padding-top: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footer-container p {
+  color: whitesmoke;
+  margin-right: 10px;
+}
+
+.box-link,
+.github-icon {
+  color: whitesmoke;
+  padding: 5px;
+  margin: -5px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.box-link:hover,
+.github-icon:hover {
+  background-color: #444459;
+}
+
+.github-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
 }
